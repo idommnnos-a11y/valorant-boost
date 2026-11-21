@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datenschutz · Valorant Boost</title>
+<style>
+:root{--bg:#0b121a;--panel:#111b25;--line:#233140;--fg:#e8eef5;--muted:#9fb0c0;--accent:#ff4655}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:"Segoe UI",system-ui,-apple-system,sans-serif;line-height:1.6}
+main{max-width:760px;margin:0 auto;padding:48px 16px 64px}
+h1{font-size:32px;margin:0 0 8px}
+h2{font-size:20px;margin:32px 0 8px}
+p,li{color:var(--muted)}
+a{color:var(--accent)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px;margin-top:24px}
+.eyebrow{color:var(--accent);font-weight:600;letter-spacing:.12em;text-transform:uppercase;font-size:12px}
+footer{margin-top:48px;font-size:14px;color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+<div class="eyebrow">Valorant Boost</div>
+<h1>Datenschutzerklärung</h1>
+<p>Stand: 21. November 2026</p>
+
+<h2>Kurz gesagt</h2>
+<ul>
+<li>Valorant Boost läuft nur auf deinem PC. Es gibt keinen Server des Entwicklers, und die App schickt keine Daten an den Entwickler.</li>
+<li>Die Google-Anmeldung ist freiwillig. Ohne sie funktioniert die App vollständig.</li>
+<li>Mit Google angemeldet, liegen deine Profile in deinem eigenen Google Drive. Nur du hast darauf Zugriff.</li>
+</ul>
+
+<h2>Was die App auf deinem PC speichert</h2>
+<p>Einstellungen, Profile, Messergebnisse und ein Fehlerprotokoll liegen im Ordner <code>%LOCALAPPDATA%\ValorantBoost</code> auf deinem PC. Bist du mit Google angemeldet, liegt dort zusätzlich die Anmeldung (ein sogenanntes Refresh-Token). Sie ist mit deinem Windows-Konto verschlüsselt (Windows DPAPI) und kann nur unter deinem Windows-Konto auf diesem PC gelesen werden.</p>
+
+<h2>Google-Anmeldung und Google Drive</h2>
+<p>Wenn du in der App „Mit Google anmelden“ wählst, öffnet sich die Anmeldung von Google in deinem Browser. Die App sieht dein Passwort nie. Sie fragt nur diese Berechtigungen an:</p>
+<ul>
+<li><strong>Deine E-Mail-Adresse</strong> (<code>userinfo.email</code>): nur, um in der App anzuzeigen, mit welchem Konto du angemeldet bist. Sie wird nur auf deinem PC gespeichert.</li>
+<li><strong>Eigene Konfigurationsdaten in Google Drive</strong> (<code>drive.appdata</code>): Die App legt in einem versteckten App-Ordner deines Google Drive genau eine Datei an, <code>valorant-boost-profile.json</code>. Sie enthält deine Profile: Akzentfarbe, Hintergrund, Overlay-Einstellungen, ausgewählte Tweaks, PC-Profil, die Liste der Programme, die beim Boost beendet werden sollen, und das Monitorziel. Sie enthält keine Hardware-Daten, keine Passwörter und keine Anmeldedaten. Auf deine anderen Dateien in Google Drive hat die App keinen Zugriff.</li>
+</ul>
+<p>Die Datenübertragung läuft direkt zwischen deinem PC und Google. Der Entwickler erhält keine dieser Daten. Für die Verarbeitung bei Google gilt die <a href="https://policies.google.com/privacy?hl=de">Datenschutzerklärung von Google</a>.</p>
+<p>Die Nutzung der von Google APIs erhaltenen Daten hält sich an die <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, einschließlich der Anforderungen zur eingeschränkten Nutzung (Limited Use).</p>
+
+<h2>Daten löschen und Zugriff widerrufen</h2>
+<ul>
+<li>In der App: „Design &amp; Profile“ › „Google-Konto“ › „Abmelden“. Die App widerruft die Anmeldung bei Google und löscht sie auf deinem PC.</li>
+<li>Bei Google: unter <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a> den Zugriff von „Valorant Boost“ entfernen.</li>
+<li>Die Datei in Drive: in Google Drive unter „Einstellungen“ › „Apps verwalten“ › „Valorant Boost“ › „Optionen“ › „Versteckte App-Daten löschen“.</li>
+<li>Auf dem PC: den Ordner <code>%LOCALAPPDATA%\ValorantBoost</code> löschen.</li>
+</ul>
+
+<h2>Weitergabe</h2>
+<p>Es werden keine Daten verkauft, weitergegeben oder für Werbung genutzt.</p>
+
+<h2>Kontakt</h2>
+<p>Fragen zum Datenschutz: über die Support-Adresse, die Google beim Anmelden anzeigt.</p>
+
+<footer><a href="index.html">Zur Startseite</a></footer>
+</main>
+</body>
+</html>
